@@ -15,4 +15,31 @@ h2 {
   margin-bottom: 10px;
 }
 
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
+.pelicula {
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pelicula img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.pelicula p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pelicula:hover {
+  transform: scale(1.05);
+}
